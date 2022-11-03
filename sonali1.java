@@ -1,9 +1,13 @@
 public class jdc04softtech{
 
 public status void main(String[] args){
-for(int i=1; i%2; i++)
+  int num=5;
+  int factorial =1;
+  
+for(int i=1; i<=num; i++)
 {
-System.out.println(i);
+factorial=factorial*i
 }
+  System.out.println("factorial is:" +factorial);
 }
 }
